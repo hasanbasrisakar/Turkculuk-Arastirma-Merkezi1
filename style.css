@@ -1,0 +1,1600 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a{text-decoration: none;}
+.navbar{
+    z-index: 999;
+    background: #ffffff;
+    box-shadow: 0px 12px 16.5px 0px rgba(0, 0, 0, 0.05);
+    margin-bottom: 0px;
+    position: sticky;
+    top: 0;
+    margin-bottom: 30px;
+}
+.cerceve{
+    margin: auto;
+    width: 97%;
+    max-width: 1080px;
+}
+.navbar .cerceve .banner img{
+    width: 100%;
+}
+.navbar .cerceve .nav{
+    padding: 0 0;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.navbar .cerceve .nav .menu a{
+    padding: 15px 0;
+    color: #171717;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    margin-right: 30px;
+    text-decoration: none;
+}
+.navbar .cerceve .nav .menu a:hover{
+    color: #C70039;
+}
+.navbar .cerceve .nav .search-bar{
+    display: flex;
+}
+
+.navbar .cerceve .nav .search-bar .search{
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background: #EFF0F3;
+    margin-right: 10px;
+}
+
+.navbar .cerceve .nav .search-bar .search input[type=text]{
+    padding-left:15px ;
+    background-color: #EFF0F3;
+    border: none;
+    outline: none;
+    color: #171717;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    width: 10%;
+    min-width: 210px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.navbar .cerceve .nav .search-bar input[type=button]{
+    border-radius: 5px;
+    background: #171717;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    padding: 10px 20px;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px solid #171717;
+    transition: .3s all;
+}
+
+.navbar .cerceve .nav .search-bar input[type=button]:hover{
+    cursor: pointer;
+    background: #FFF;
+    border: 2px solid #171717;
+    color: #171717;
+    transition: .3s all;
+}
+
+.carousel{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.carousel-item img{
+    border-radius: 20px;
+}
+
+
+.left{
+    width: 65%;
+}
+
+.right {width: 32%;}
+.siirler .flex .left1{text-align: center ;}
+
+.left1{
+    width: 72%;
+}
+
+.right1 {width: 25%;}
+
+.digeryazilar .title{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-radius: 10px;
+background: #171717;
+    padding: 10px 40px;
+    margin-bottom: 10px;
+}
+
+.digeryazilar{
+    width: 100%;
+}
+
+.digeryazilar .card{
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.40);
+    padding: 10px;
+    margin: 15px 0;
+}
+
+
+.digeryazilar .card a{
+    text-decoration: none;
+}
+
+.digeryazilar .card .baslik{
+    color: #000;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.digeryazilar .card .detail{
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.90);
+font-family: Montserrat;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.turkculuk-arastirmalari{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.turkculuk-arastirmalari h2{
+color: #000;
+text-align: center;
+font-family: "Lexend Peta";
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0;
+}
+
+.turkculuk-arastirmalari i{
+    color: #C70039;
+font-family: "Lexend Peta";
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.turkculuk-arastirmalari .list .card{
+    margin: 30px 0 0px 0;
+        width: 100%;
+    height: 140px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.turkculuk-arastirmalari .list .card img{
+    width: 100%;
+    height: 138px;
+    object-fit: cover;
+    object-position: 0px -70px;
+    position: absolute;
+        border-radius: 10px;
+    z-index: 0;
+    box-shadow: 0px 0px 10.1px 0px rgba(0, 0, 0, 0.50);
+
+}
+.turkculuk-arastirmalari .list .card .texts{
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(0deg, rgba(36,19,2,1) 3%, rgba(0,212,255,0) 100%);
+    width: 100%;
+    bottom:0px;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+.turkculuk-arastirmalari .list .card .texts .title{
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.turkculuk-arastirmalari .list .card .texts .detail{
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+
+    color: rgba(255, 255, 255, 0.90);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+.digeryazilar1 .title{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-radius: 10px;
+background: #171717;
+    padding: 10px 40px;
+    margin-bottom: 10px;
+}
+
+.digeryazilar1{
+    width: 100%;
+}
+
+.digeryazilar1 .card{
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.40);
+    margin: 15px 0 0px 0;
+}
+
+
+.digeryazilar1 .card a{
+    text-decoration: none;
+}
+
+.digeryazilar1 .card .baslik{
+    color: #000;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 3px;
+}
+
+.digeryazilar1 .card .detail{
+    color: #676767;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.digeryazilar1 .card .flex img{
+    width: 40%;
+    object-fit: cover;
+    border-radius: 10px 0 0px 10px;
+    background: linear-gradient(270deg, #000000 50.31%, rgba(0, 0, 0, 0) 50.31%);}
+
+.digeryazilar1 .card .flex .c-detail{
+    padding: 10px 10px 10px 0px;
+
+    width: 56%;
+}
+
+.s-banner{
+    margin: 50px 0 40px 0;
+    width: 100%;
+}
+.s-banner{
+    margin: 40px 0 40px 0;
+    width: 100%;
+}
+
+.flex1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: space-between;
+}
+.siirler .list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.siirler .list .card{
+    padding: 20px;
+    width: 48%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.siirler .list .card a{
+    text-decoration: none;
+}
+.siirler .list .card .profil img{
+    width: 58px;
+    height: 58px;
+     border-radius: 100px;
+     margin-right: 20px;
+}
+.siirler .list .card .profil .baslik{
+    text-align: left;
+}
+
+.siirler .list .card .profil .baslik b{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 34px;
+display: block;
+    text-align: left;
+color: #000000;
+}
+.siirler .list .card .profil .baslik i{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+text-align: left;
+
+color: rgba(0, 0, 0, 0.8999999761581421);
+}
+.siirler .list .card .flex{
+    align-items: center;
+    justify-content: left;
+}
+.siirler .list .card p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+text-align: left;
+ 
+color: #676767;
+margin-bottom: 0;
+margin: 20px 0 18px 0;
+}
+.siirler .list .card .s-btn{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+color: #c70039;
+transition: .5s all;
+text-align: left;
+}
+
+.siirler .list .card .s-btn:hover{
+    color: #171717;
+    transition: .5s all;
+}
+
+.digersiirler .title{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-radius: 10px;
+background: #171717;
+    padding: 10px 40px;
+    margin-bottom: 15px;
+}
+.digersiirler .card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-right: 20px;
+}
+
+.digersiirler .list .card{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+.digersiirler .card .detail i{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+color: rgba(103, 103, 103, 0.8999999761581421);
+}
+.digersiirler .card .detail b{
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #000000; 
+    display: block;
+}
+.digersiirler .card .detail {
+    width: calc(100% - 70px);
+}
+
+.dhfz{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.dahafazla{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 700;
+line-height: 32px;
+text-align: center;
+background: #c70039;
+ text-decoration: none;
+border-radius: 10px;
+padding: 10px 50px;
+color: #ffffff;
+}
+
+
+.turkculuk-arastirmalari1{
+    width: 100%;
+    margin-top: 0px;
+}
+
+.turkculuk-arastirmalari1 h2{
+color: #000;
+text-align: center;
+font-family: "Lexend Peta";
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0;
+}
+
+.center{
+    margin: auto;
+    text-align: center;
+}
+
+.turkculuk-arastirmalari1 i{
+    color: #C70039;
+font-family: "Lexend Peta";
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.turkculuk-arastirmalari1 .list .card{
+    margin: 0px 0 30px 0;
+        width: 100%;
+    height: 140px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.turkculuk-arastirmalari1 .list .card img{
+    width: 100%;
+    height: 138px;
+    object-fit: cover;
+    object-position: 0px -70px;
+    position: absolute;
+        border-radius: 10px;
+    z-index: 0;
+    box-shadow: 0px 0px 10.1px 0px rgba(0, 0, 0, 0.50);
+
+}
+.turkculuk-arastirmalari1 .list .card .texts{
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(0deg, rgba(36,19,2,1) 3%, rgba(0,212,255,0) 100%);
+    width: 100%;
+    bottom:0px;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+.turkculuk-arastirmalari1 .list .card .texts .title{
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.turkculuk-arastirmalari1 .list .card .texts .detail{
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+
+    color: rgba(255, 255, 255, 0.90);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.footer{
+    padding: 50px 0 30px 0;
+    background: #171717;
+    width: 100%;
+}
+
+.footer .cerceve .flex {
+    align-items: centerh;
+}
+
+.footer .cerceve .flex .left{
+    width: 35%;
+    margin-right: 5%;
+}
+.footer .cerceve .flex .left p{
+    font-family: Plus Jakarta Sans;
+font-style: normal;
+font-weight: 700;
+text-align: left;
+ 
+color: #a8a8a8;
+}
+
+.copyright{
+    margin-top: 20px;
+    padding-top: 30px;
+    border-top: 1px solid #a8a8a8;
+    font-family: Plus Jakarta Sans;
+font-style: normal;
+font-weight: 700;
+    text-align: center;color: #a8a8a8;
+
+}
+.footer .cerceve .flex .right{width: 55%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between}
+.footer .cerceve .flex .right .list{
+flex-wrap: wrap;
+justify-content: space-between;
+text-align: left;
+}
+.footer .cerceve .flex .right .list a{
+    display: block;
+    font-family: Plus Jakarta Sans;
+font-style: normal;
+font-weight: 700;
+text-align: left;
+ text-decoration: none;
+color: #a8a8a8;
+margin-bottom: 10px;
+}
+
+.footer .cerceve .flex .right .list .glow{color: #ffffff;}
+
+.carousel-caption h5{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+text-align: center;
+text-shadow: 0px 0px 10px #000000;
+
+color: #ffffff;
+}
+.carousel-caption p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+ 
+color: #ffffff;
+text-shadow: 0px 0px 10px #000000;
+
+}
+
+.turkuluk-arastirmalari-stick a{
+background: #c70039;
+padding: 11px 40px;
+border-radius: 0px 0px 10px 10px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+color: #ffffff;
+}
+.turkuluk-arastirmalari-stick{
+    text-align: right;
+    position: sticky;
+top: 148px;
+z-index: 99;
+margin-bottom: 20px;
+}
+.custom-select select{box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.45);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+text-align: left;
+ outline: none;
+color: #676767;
+margin-bottom: 15px;
+}
+
+
+
+.yazilar-list .card{
+    position: relative;
+    height: 220px;
+    width: calc(100% / 3 - 30px);
+     
+border-radius: 10px;
+    margin: 20px 0;
+ 
+
+}
+.yazilar-list .card a img{
+    width: 100%;
+    height: 219px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10.100000381469727px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(0deg, #000000 100%, rgba(0, 0, 0, 0) 0%);
+}
+.yazilar-list .card .t-a{
+    position: absolute;
+    top:5px;
+    right: 5px;
+    background: #c70039;
+    border-radius: 6px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+padding: 4px 10px; 
+color: #ffffff;
+
+}
+.yazilar-list .card .detail-y{
+    padding: 15px;
+    position: absolute;
+    bottom: -1px;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgb(0, 0, 0) 25%, rgba(0,212,255,0) 100%);
+}
+.yazilar-list .card .detail-y b{
+    font-family: Montserrat;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+display: block;
+line-height: 28px;
+text-align: left;
+color: #ffffff;
+}
+.yazilar-list .card .detail-y i{
+    font-family: Montserrat;
+font-style: normal;
+text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: left;
+ 
+color: #e7e7e7;
+ 
+}
+.left .kapak{
+    position: relative;
+}
+.left .kapak .detail{
+    position: absolute;
+    bottom: -1px;
+    border-radius: 10px;
+    height: 320px;
+    background: linear-gradient(0deg, rgb(0, 0, 0) 25%, rgba(0,212,255,0) 100%);
+    width: 100%;
+    padding: 20px;
+}
+.left .kapak .detail .detail-y h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.left .kapak .detail .detail-y h2{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+text-align: left;
+color: #e7e7e7;
+line-height: 0px;
+}
+.kapak img{
+    width: 100%;
+    border-radius: 10px;
+    height: 320px;
+    object-fit: cover;
+    box-shadow: 0px 0px 10.100000381469727px rgba(0, 0, 0, 0.5);
+
+}
+.left .yazi{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+text-align: justify;
+padding: 20px;
+color: #676767;
+}
+
+.tags{
+    padding: 20px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tags .tag{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+border: 1px solid #dbdbdb;
+border-radius: 5px;
+padding: 2px 8px;
+margin-right: 10px;
+}
+.tag-title{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+background: #171717;
+border: 1px solid #171717;
+border-radius: 5px;
+padding: 2px 8px;
+margin-right: 10px;
+color: #ffffff;
+}
+
+.tags .t-ag{
+    background: #c70039;
+    border: 1px solid #c70039;
+    color: #fff;
+}
+
+.siirler1 .list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.siirler1 .list .card{
+    padding: 20px;
+    width: calc(100% / 3 - 20);
+    margin: 20px 0;
+    border-radius: 10px;
+}
+.siirler1 .list .card a{
+    text-decoration: none;
+}
+.siirler1 .list .card .profil img{
+    width: 58px;
+    height: 58px;
+     border-radius: 100px;
+     margin-right: 20px;
+}
+.siirler1 .list .card .profil .baslik{
+    text-align: left;
+}
+
+.siirler1 .list .card .profil .baslik b{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 34px;
+display: block;
+    text-align: left;
+color: #000000;
+}
+.siirler1 .list .card .profil .baslik i{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+text-align: left;
+
+color: rgba(0, 0, 0, 0.8999999761581421);
+}
+.siirler1 .list .card .flex{
+    align-items: center;
+    justify-content: left;
+}
+.siirler1 .list .card p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+text-align: left;
+ 
+color: #676767;
+margin-bottom: 0;
+margin: 20px 0 18px 0;
+}
+.siirler1 .list .card .s-btn{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+color: #c70039;
+transition: .5s all;
+text-align: left;
+}
+
+.siirler1 .list .card .s-btn:hover{
+    color: #171717;
+    transition: .5s all;
+}
+.left .siir{
+    padding: 0 20px;
+    align-items: center;
+}
+.left .siir .detail{
+    width: calc(100% - 100px);
+}
+
+.left .siir .detail .detail-y h1{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 40px;
+text-align: left;
+ 
+color: #000000;
+}
+.left .siir .detail .detail-y h2{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+text-align: left;
+color: #000000;
+line-height: 0px;
+}
+.left .siir img{
+    width: 65px;
+    border-radius: 100px;
+}
+.left .siirs {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+    padding: 20px;
+    color: #676767;
+}
+
+.digersiirler .card .flex .c-detail{
+    padding: 10px 15px;
+    width: 100%;
+}
+.digersiirler .card{
+    margin-top: 15px;
+}
+.digersiirler .card .flex .c-detail .baslik{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+text-align: left;
+ 
+color: #000000;
+}
+.digersiirler .card .flex .c-detail .detail{
+    font-family: Montserrat;
+    margin-top: 3px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: left;
+width: 100%;
+color: #676767;
+ 
+}
+.iletisim b{
+    display: block;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+text-align: left;
+margin-bottom: 5px;
+margin-top: 10px;
+color: #000000;
+}
+.iletisim a{
+    margin-bottom: 10px;
+    font-family: Montserrat;
+font-style: normal;
+display: block;
+font-weight: 400;
+font-size: 20px;
+text-align: left;
+ 
+color: #676767;
+}
+.inp input, .inp textarea{
+    padding: 5px;
+    border: 1px solid #dbdbdb;
+box-shadow: inset 0px 0px 1px rgba(0, 0, 0, 0.25);
+background-color: #FFF;
+width: 100%;
+}
+.inp textarea{
+    height: 150px;
+}
+.inp p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+text-align: left;
+ margin-bottom: 5px;
+ font-size: 20px;
+ margin-top: 15px;
+color: #171717;
+}
+.right3{
+    width: 35%;
+}
+
+.iletisim1 .title{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+text-align: left;
+padding-bottom: 5px;
+margin-bottom: 20px;
+    border-bottom: 3px solid #171717;
+    width: 115px;
+color: #171717;
+}
+
+.iletisim1 input[type=button]{
+    font-family: Montserrat;
+    margin-top: 20px;
+font-style: normal;
+font-weight: 600;
+text-align: center;
+ padding: 10px 15px;
+ background-color: #171717;
+color: #ffffff;
+transition: all .5s;
+
+border: 2px solid #171717;
+}.iletisim1 input[type=button]:hover{
+    background-color: #FFF;
+    color: #171717;
+    transition: all .5s;
+}
+
+.iletisim1, .iletisim{
+    padding: 40px 0;
+}
+.iletisim{
+    padding: 0px 0px 40px 0;
+}
+
+.center1{
+    align-items: center;
+}
+
+.yazi-gonder h2{
+    font-family: Cormorant Infant;
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 78px;
+text-align: left;
+ 
+color: #171717;
+}
+.yazi-gonder p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+text-align: left;
+ 
+color: #000000;
+}
+.yazi-gonder{
+    margin-bottom: 60px;
+}
+
+.s-banner1{
+    margin: -30px 0 0px 0px;
+    width: 100%;
+}
+.hakkimizda{
+    position: relative;
+}
+
+.hakkimizda .detail-h{
+    position: absolute;
+}
+
+.hakkimizda h1{
+
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+text-align: center;
+ width: 100%;
+color: #000000;
+}
+
+.hakkimizda p{
+    padding: 40px 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+     
+ width: 100%;
+color: #000000;
+}
+.y-profil{
+    align-items: center;
+    background: #ffffff;
+    width: 50%;
+
+border-radius: 10px;
+ padding: 10px 20px;
+ margin-bottom: 20px;
+box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+}
+.y-profil .yazar{
+    align-items: center;
+}
+.y-profil img{
+     width: 70px;
+     border-radius: 100px;
+     margin-right: 25px;
+}
+
+.y-profil .detail h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    color: #171717;
+}
+.y-profil .detail b{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+text-align: left;
+ 
+color: #171717;
+ 
+}
+
+.y-hakkinda b{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+text-align: left;
+ 
+color: #000000;
+ 
+}
+.y-hakkinda p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+text-align: justify;
+ width: 100%;
+margin-top: 10px;
+color: #676767;
+}
+
+.yazilari{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.yazilari b{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: left;
+     
+    color: #000000;
+}
+
+.yazilari .custom-select select{
+    position: absolute;
+    margin-bottom:0;
+    right: 0;
+}
+
+#menuresp {
+    display: none;
+}
+
+.mobilmenu{
+    display: none;
+}
+
+.custom-select{
+    width: 200px;
+}
+
+.say-title{
+    color: #000;
+    text-align: center;
+    font-family: "Lexend Peta";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.say-title i{
+    color: #C70039;
+    font-family: "Lexend Peta";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: block;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.margin{
+    margin-top: 20px;
+}
+
+
+.sayi {
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    width: calc(25% - 30px); /* Adjust width calculation */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.sayi img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.sayi .say-title {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    margin: 0 0 5px 0; /* Add some bottom margin */
+}
+
+.sayi .say-detail {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    margin-bottom: 5px; /* Add some bottom margin */
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.sayi a {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    transition: all .2s;
+    color: #000000;
+    display: inline-block; /* Make the link a block element */
+}
+
+.sayi a:hover {
+    color: #C70039;
+    transition: all .2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+.cerceve{
+    width: 100%;
+}
+
+.navbar,.turkuluk-arastirmalari-stick {
+    display: none;
+}
+
+.mobilmenu {
+    z-index: 99999;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: calc(100% - 0px);
+    align-items: center;
+    height: 6rem;
+    position: sticky;
+    background-color: white;
+    padding: 0 20px;
+    box-shadow: 0px 12px 16.5px 0px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.logo1 img {
+    margin-left: 0;
+    width: 186px;
+}
+
+
+.menubuton:hover {
+    cursor: pointer;
+}
+
+#menuresp {
+    display: block;
+    background-color: #FBFAF8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 20px;
+    width: calc(100% - 0px);
+    z-index: 99999;
+    transition: all .5s;
+}
+
+.menuresp a{
+    display: block;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #c70039;
+    padding: 20px 0;
+    border-bottom:  1px solid #E0E0E0;
+}
+
+.menuresp .menubuton {
+    margin-right: 0rem;
+    margin-top: 1.3rem;
+    text-align: right;
+}
+
+#logos {
+    display: none;
+}
+
+#logos1 {
+    display: block;
+}
+.flex{
+    flex-direction: column
+}
+.left {
+    width: 100%;
+    padding: 0 30px;
+}
+.right {
+    width: 100%;
+    padding: 0 30px;
+}
+.digeryazilar {
+ margin-top: 30px;
+}
+.turkculuk-arastirmalari {
+    width: 100%;
+    margin-top: 30px;
+}
+.digeryazilar1 {
+    margin-top: 30px;
+}
+.digeryazilar1 .card .flex img {
+    width: 100%;
+    height: 100px;
+}
+.digeryazilar1 .card .flex .c-detail {
+    width: 100%;
+    text-align: center;
+}
+.digeryazilar1 .card .baslik{
+    width: 80%;
+    margin: auto;
+}
+.siirler .list .card {
+    width: 100%;
+    text-align: center;
+}
+.siirler .list .card p, .siirler .list .card .s-btn {
+    text-align: center;
+
+}
+.left1 {
+    padding: 0 30px;
+
+    width: 100%;
+}
+
+.digersiirler{
+    display: none;
+}
+.footer .cerceve .flex{
+    text-align: center;
+    flex-direction:column;
+    justify-content: center;
+}
+.footer .cerceve .flex .left {
+    text-align: center;
+
+    width: 100%;
+    margin-right: 0%;
+}
+.footer .cerceve .flex .left p{
+    text-align: center;
+
+}
+.footer .cerceve .flex .right {
+    width: 100%;
+    text-align: center;
+    flex-direction:column;
+    justify-content: center;}
+    .footer .cerceve .flex .right .list a {
+        display: block;
+        font-family: Plus Jakarta Sans;
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: none;
+        color: #a8a8a8;
+        margin-bottom: 10px;
+    }
+    .footer .cerceve .flex .right .list {
+        margin-top: 30px;
+    }
+    .custom-select{
+        text-align: center;
+        width: 100%;
+    }
+    .yazilar-list .card {
+        width: calc(100% - 40px);
+        margin: 10px auto 20px auto;
+    }
+    .siirler1 .list .card {
+        width: calc(100% - 40px);
+        margin: 10px auto 20px auto;
+    }
+    .siirler1 .list .card p {
+        text-align: center;
+    }
+    .siirler1 .list .card .s-btn{
+        text-align: center;
+    }
+    .s-banner {
+        margin: 40px 0 40px 0;
+        width: 100%;
+    }
+    .iletisim {
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px 40px 0px;
+}
+.iletisim a {
+    margin-bottom: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    display: block;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #676767;
+}
+.iletisim b {
+    display: block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    color: #000000;
+}
+.right3 {
+    width: 100%;
+    padding: 0 20px;
+}
+.hakkimizda .detail-h {
+    position:static;
+}
+.s-banner1 {
+    display: block;
+}
+.left .siirs {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    padding: 0px;
+    color: #676767;
+}   
+.yazi-gonder {
+    padding: 0 20px;
+}
+.left .kapak .detail .social{
+    display: none;
+}
+.left .yazi{
+    padding: 20px 0;
+}
+.tags {
+    padding: 20px 0 0 0;
+    display: flex;
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+}
+.tag-title{
+    margin-bottom: 20px;
+}
+.tag{
+    margin-bottom: 20px;
+}
+.footer {
+    padding: 50px 0 30px 0;
+    background: #171717;
+    width: 100%;
+    margin-top: 30px;
+}
+.y-profil {
+    width: calc(100% - 60px);
+    padding:20px 30px;
+    text-align: center;
+    margin: auto;
+}
+.y-hakkinda{
+    padding: 30px;
+}
+.y-profil img{
+    margin: 0;
+}
+.left .siir {
+    text-align: center;
+}
+.left .siir .detail .detail-y h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+}
+.left .siir .detail .detail-y h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    line-height: 0px;
+}
+.left .siir .detail .detail-y{
+    margin: auto;
+}
+.left .siir .detail .social {
+    margin: auto;
+    margin: 10px auto 20px auto;
+}
+.yazilari .custom-select{
+    display: none;
+}
+.yazilari b{
+    padding: 0 30px;
+}
+.sayilar{
+    text-align: center;
+    padding: 0 60px;
+}
+.sayi{
+    width: 100%;
+}
+
+
+
+}
+
+#ana-footer{
+    margin: 0;
+}

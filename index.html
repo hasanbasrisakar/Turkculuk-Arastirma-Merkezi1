@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lexend+Peta:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Türkçülük Araştırma Merkezi - Kögmenler</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="cerceve">
+      <div class="banner">
+        <img src="./img/banner.jpg" alt="Türkçülük Araştırma Merkezi">
+      </div>
+      <div class="nav">
+        <div class="menu">
+          <a href="/">Anasayfa</a>
+          <a href="sayilar.html">Sayılar</a>
+          <a href="yazilar.html">Yazılar</a>
+          <a href="siirler.html">Şiirler</a>
+          <a href="iletisim.html">İletişim</a>
+          <a href="hakkimizda.html">Hakkımızda</a>
+        </div>
+        <div class="search-bar">
+          <div class="search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path
+                d="M18.4444 20L11.4444 13C10.8889 13.4444 10.25 13.7963 9.52778 14.0556C8.80556 14.3148 8.03704 14.4444 7.22222 14.4444C5.2037 14.4444 3.49556 13.7452 2.09778 12.3467C0.7 10.9481 0.000740741 9.24 0 7.22222C0 5.2037 0.699259 3.49556 2.09778 2.09778C3.4963 0.7 5.20444 0.000740741 7.22222 0C9.24074 0 10.9489 0.699259 12.3467 2.09778C13.7444 3.4963 14.4437 5.20444 14.4444 7.22222C14.4444 8.03704 14.3148 8.80556 14.0556 9.52778C13.7963 10.25 13.4444 10.8889 13 11.4444L20 18.4444L18.4444 20ZM7.22222 12.2222C8.61111 12.2222 9.79185 11.7359 10.7644 10.7633C11.737 9.79074 12.223 8.61037 12.2222 7.22222C12.2222 5.83333 11.7359 4.65259 10.7633 3.68C9.79074 2.70741 8.61037 2.22148 7.22222 2.22222C5.83333 2.22222 4.65259 2.70852 3.68 3.68111C2.70741 4.6537 2.22148 5.83407 2.22222 7.22222C2.22222 8.61111 2.70852 9.79185 3.68111 10.7644C4.6537 11.737 5.83407 12.223 7.22222 12.2222Z"
+                fill="#343434" />
+            </svg>
+            <input type="text" name="search" id="">
+          </div>
+
+          <input type="button" value="Ara">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="mobilmenu frame">
+    <div class="logo1">
+      <a href="/" id="headlogo"><img src="img/resplogo.png" alt=""></a>
+    </div>
+    <div class="menubuton" onclick="gizleGoster('menuresp');"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+        height="24" viewBox="0 0 24 24" fill="none">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M3 6C3 5.44772 3.44772 5 4 5H20C20.5523 5 21 5.44772 21 6C21 6.55228 20.5523 7 20 7H4C3.44772 7 3 6.55228 3 6ZM3 12C3 11.4477 3.44772 11 4 11H20C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13H4C3.44772 13 3 12.5523 3 12ZM4 17C3.44772 17 3 17.4477 3 18C3 18.5523 3.44772 19 4 19H20C20.5523 19 21 18.5523 21 18C21 17.4477 20.5523 17 20 17H4Z"
+          fill="#140D27" />
+      </svg>
+
+    </div>
+
+
+  </div>
+  <div class="menuresp" id="menuresp" style="left: -100%;">
+    <div class="menubuton" onclick="gizle('menuresp');">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M20.7071 4.70711C21.0976 4.31658 21.0976 3.68342 20.7071 3.29289C20.3166 2.90237 19.6834 2.90237 19.2929 3.29289L12 10.5858L4.70711 3.29289C4.31658 2.90237 3.68342 2.90237 3.29289 3.29289C2.90237 3.68342 2.90237 4.31658 3.29289 4.70711L10.5858 12L3.29289 19.2929C2.90237 19.6834 2.90237 20.3166 3.29289 20.7071C3.68342 21.0976 4.31658 21.0976 4.70711 20.7071L12 13.4142L19.2929 20.7071C19.6834 21.0976 20.3166 21.0976 20.7071 20.7071C21.0976 20.3166 21.0976 19.6834 20.7071 19.2929L13.4142 12L20.7071 4.70711Z"
+          fill="#232227" />
+      </svg>
+    </div>
+    <a href="/">Anasayfa</a>
+    <a href="sayilar.html">Sayılar</a>
+    <a href="yazilar.html">Yazılar</a>
+    <a href="siirler.html">Şiirler</a>
+    <a href="iletisim.html">İletişim</a>
+    <a href="hakkimizda.html">Hakkımızda</a>
+  </div>
+
+  <script>
+    function gizleGoster(ID) {
+      var secilenID = document.getElementById(ID);
+      if (secilenID.style.left == "-100%") {
+        secilenID.style.left = "0%";
+        secilenID.style.transition = "all .5s"
+
+      } else {
+        secilenID.style.left = "-100%";
+      }
+    }
+
+    var menuLinks = document.querySelectorAll('.menuresp a');
+    for (var i = 0; i < menuLinks.length; i++) {
+      menuLinks[i].addEventListener('click', function () {
+        gizle('menuresp');
+      });
+    }
+
+    function gizle(ID) {
+      var secilenID = document.getElementById(ID);
+      secilenID.style.left = "-100%";
+    }
+  </script>
+  <div class="cerceve">
+    <div class="flex">
+      <div class="left">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active"><a href="">
+                <img src="img/image 1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Kögmenler Dergisinden Yeni Karar</h5>
+                  <p>05.01.2024 ● Yönetim</p>
+                </div>
+              </a>
+            </div>
+            <div class="carousel-item"><a href="">
+                <img src="img/image 1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </a>
+            </div>
+            <div class="carousel-item"><a href="">
+                <img src="img/image 1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+
+      </div>
+      <div class="right">
+        <div class="digeryazilar">
+          <div class="title">
+            En Çok Okunan Yazılar
+          </div>
+          <div class="card">
+            <a href="">
+              <div class="baslik">
+                Kögmenler Dergisinden Yeni Karar
+              </div>
+            </a>
+            <div class="detail">Hasan Basri Sakar <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
+                viewBox="0 0 6 6" fill="none">
+                <path
+                  d="M2.99992 0.0833435C3.5714 0.0833105 4.13029 0.251162 4.60719 0.566051C5.08409 0.88094 5.45798 1.32899 5.68241 1.85455C5.90685 2.38012 5.97194 2.96003 5.86961 3.52227C5.76728 4.08452 5.50204 4.60431 5.10682 5.01709C4.7116 5.42988 4.20383 5.71746 3.64656 5.84413C3.0893 5.9708 2.5071 5.93096 1.97228 5.72958C1.43746 5.5282 0.973586 5.17414 0.638269 4.71137C0.302953 4.24861 0.110971 3.69753 0.0861687 3.12659L0.083252 3.00001L0.0861687 2.87343C0.118788 2.12253 0.440023 1.41321 0.982882 0.893395C1.52574 0.373576 2.24832 0.0833869 2.99992 0.0833435Z"
+                  fill="black" />
+              </svg> 05.01.2024</div>
+          </div>
+          <div class="card">
+            <a href="">
+              <div class="baslik">
+                Kögmenler Dergisinden Yeni Karar
+              </div>
+            </a>
+            <div class="detail">Hasan Basri Sakar <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
+                viewBox="0 0 6 6" fill="none">
+                <path
+                  d="M2.99992 0.0833435C3.5714 0.0833105 4.13029 0.251162 4.60719 0.566051C5.08409 0.88094 5.45798 1.32899 5.68241 1.85455C5.90685 2.38012 5.97194 2.96003 5.86961 3.52227C5.76728 4.08452 5.50204 4.60431 5.10682 5.01709C4.7116 5.42988 4.20383 5.71746 3.64656 5.84413C3.0893 5.9708 2.5071 5.93096 1.97228 5.72958C1.43746 5.5282 0.973586 5.17414 0.638269 4.71137C0.302953 4.24861 0.110971 3.69753 0.0861687 3.12659L0.083252 3.00001L0.0861687 2.87343C0.118788 2.12253 0.440023 1.41321 0.982882 0.893395C1.52574 0.373576 2.24832 0.0833869 2.99992 0.0833435Z"
+                  fill="black" />
+              </svg> 05.01.2024</div>
+          </div>
+          <div class="card">
+            <a href="">
+              <div class="baslik">
+                Kögmenler Dergisinden Yeni Karar
+              </div>
+            </a>
+            <div class="detail">Hasan Basri Sakar <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
+                viewBox="0 0 6 6" fill="none">
+                <path
+                  d="M2.99992 0.0833435C3.5714 0.0833105 4.13029 0.251162 4.60719 0.566051C5.08409 0.88094 5.45798 1.32899 5.68241 1.85455C5.90685 2.38012 5.97194 2.96003 5.86961 3.52227C5.76728 4.08452 5.50204 4.60431 5.10682 5.01709C4.7116 5.42988 4.20383 5.71746 3.64656 5.84413C3.0893 5.9708 2.5071 5.93096 1.97228 5.72958C1.43746 5.5282 0.973586 5.17414 0.638269 4.71137C0.302953 4.24861 0.110971 3.69753 0.0861687 3.12659L0.083252 3.00001L0.0861687 2.87343C0.118788 2.12253 0.440023 1.41321 0.982882 0.893395C1.52574 0.373576 2.24832 0.0833869 2.99992 0.0833435Z"
+                  fill="black" />
+              </svg> 05.01.2024</div>
+          </div>
+          <div class="card">
+            <a href="">
+              <div class="baslik">
+                Kögmenler Dergisinden Yeni Karar
+              </div>
+            </a>
+            <div class="detail">Hasan Basri Sakar <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6"
+                viewBox="0 0 6 6" fill="none">
+                <path
+                  d="M2.99992 0.0833435C3.5714 0.0833105 4.13029 0.251162 4.60719 0.566051C5.08409 0.88094 5.45798 1.32899 5.68241 1.85455C5.90685 2.38012 5.97194 2.96003 5.86961 3.52227C5.76728 4.08452 5.50204 4.60431 5.10682 5.01709C4.7116 5.42988 4.20383 5.71746 3.64656 5.84413C3.0893 5.9708 2.5071 5.93096 1.97228 5.72958C1.43746 5.5282 0.973586 5.17414 0.638269 4.71137C0.302953 4.24861 0.110971 3.69753 0.0861687 3.12659L0.083252 3.00001L0.0861687 2.87343C0.118788 2.12253 0.440023 1.41321 0.982882 0.893395C1.52574 0.373576 2.24832 0.0833869 2.99992 0.0833435Z"
+                  fill="black" />
+              </svg> 05.01.2024</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="flex1">
+      <div class="left">
+        <div class="turkculuk-arastirmalari">
+          <h2>SON <i>YAZILAR</i></h2>
+          <div class="list">
+            <a href="">
+              <div class="card">
+                <div class="texts">
+                  <div class="title">
+                    Atsız’da Sivil Milliyetçilik Anlayışı
+                  </div>
+                  <div class="detail">
+                    05.01.2024 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                      fill="none">
+                      <g opacity="0.9" clip-path="url(#clip0_24_23)">
+                        <path
+                          d="M7.00004 4.08337C7.57152 4.08334 8.13042 4.25119 8.60732 4.56608C9.08421 4.88097 9.4581 5.32902 9.68254 5.85458C9.90697 6.38015 9.97207 6.96006 9.86974 7.52231C9.76741 8.08455 9.50216 8.60434 9.10694 9.01712C8.71172 9.42991 8.20395 9.71749 7.64668 9.84416C7.08942 9.97083 6.50722 9.93099 5.9724 9.72961C5.43758 9.52823 4.97371 9.17417 4.63839 8.7114C4.30307 8.24864 4.11109 7.69756 4.08629 7.12662L4.08337 7.00004L4.08629 6.87346C4.11891 6.12256 4.44014 5.41324 4.983 4.89343C5.52586 4.37361 6.24844 4.08342 7.00004 4.08337Z"
+                          fill="#F8F8F8" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_24_23">
+                          <rect width="14" height="14" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg> Yönetim
+                  </div>
+                </div>
+                <img src="img/ta.jpg" alt="">
+              </div>
+            </a>
+            <a href="">
+              <div class="card">
+                <div class="texts">
+                  <div class="title">
+                    Atsız’da Sivil Milliyetçilik Anlayışı
+                  </div>
+                  <div class="detail">
+                    05.01.2024 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                      fill="none">
+                      <g opacity="0.9" clip-path="url(#clip0_24_23)">
+                        <path
+                          d="M7.00004 4.08337C7.57152 4.08334 8.13042 4.25119 8.60732 4.56608C9.08421 4.88097 9.4581 5.32902 9.68254 5.85458C9.90697 6.38015 9.97207 6.96006 9.86974 7.52231C9.76741 8.08455 9.50216 8.60434 9.10694 9.01712C8.71172 9.42991 8.20395 9.71749 7.64668 9.84416C7.08942 9.97083 6.50722 9.93099 5.9724 9.72961C5.43758 9.52823 4.97371 9.17417 4.63839 8.7114C4.30307 8.24864 4.11109 7.69756 4.08629 7.12662L4.08337 7.00004L4.08629 6.87346C4.11891 6.12256 4.44014 5.41324 4.983 4.89343C5.52586 4.37361 6.24844 4.08342 7.00004 4.08337Z"
+                          fill="#F8F8F8" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_24_23">
+                          <rect width="14" height="14" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg> Yönetim
+                  </div>
+                </div>
+                <img src="img/ta.jpg" alt="">
+              </div>
+            </a>
+            <a href="">
+              <div class="card">
+                <div class="texts">
+                  <div class="title">
+                    Atsız’da Sivil Milliyetçilik Anlayışı
+                  </div>
+                  <div class="detail">
+                    05.01.2024 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                      fill="none">
+                      <g opacity="0.9" clip-path="url(#clip0_24_23)">
+                        <path
+                          d="M7.00004 4.08337C7.57152 4.08334 8.13042 4.25119 8.60732 4.56608C9.08421 4.88097 9.4581 5.32902 9.68254 5.85458C9.90697 6.38015 9.97207 6.96006 9.86974 7.52231C9.76741 8.08455 9.50216 8.60434 9.10694 9.01712C8.71172 9.42991 8.20395 9.71749 7.64668 9.84416C7.08942 9.97083 6.50722 9.93099 5.9724 9.72961C5.43758 9.52823 4.97371 9.17417 4.63839 8.7114C4.30307 8.24864 4.11109 7.69756 4.08629 7.12662L4.08337 7.00004L4.08629 6.87346C4.11891 6.12256 4.44014 5.41324 4.983 4.89343C5.52586 4.37361 6.24844 4.08342 7.00004 4.08337Z"
+                          fill="#F8F8F8" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_24_23">
+                          <rect width="14" height="14" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg> Yönetim
+                  </div>
+                </div>
+                <img src="img/ta.jpg" alt="">
+              </div>
+            </a>
+
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="digeryazilar1">
+          <div class="title">
+            Diğer Yazılarımız
+          </div>
+          <div class="card">
+            <a href="" class="flex"> <img src="img/image 1.jpg" alt="">
+              <div class="c-detail">
+                <div class="baslik">
+                  Türkçülüğün Tarihinde Kuram Tartışmaları
+                </div>
+                <div class="detail">Hasan Basri Sakar</div>
+                <div class="detail">05.01.2024</div>
+              </div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="" class="flex"> <img src="img/image 1.jpg" alt="">
+              <div class="c-detail">
+                <div class="baslik">
+                  Türkçülüğün Tarihinde Kuram Tartışmaları
+                </div>
+                <div class="detail">Hasan Basri Sakar</div>
+                <div class="detail">05.01.2024</div>
+              </div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="" class="flex"> <img src="img/image 1.jpg" alt="">
+              <div class="c-detail">
+                <div class="baslik">
+                  Türkçülüğün Tarihinde Kuram Tartışmaları
+                </div>
+                <div class="detail">Hasan Basri Sakar</div>
+                <div class="detail">05.01.2024</div>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <img src="img/BANNERSİİR.png" class="s-banner" alt="">
+    <div class="siirler">
+      <div class="flex">
+        <div class="left1">
+          <div class="list">
+            <div class="card"><a href="#">
+                <div class="profil flex">
+                  <img src="img/hasan.jpg" alt="">
+                  <div class="baslik"><b>Türk Hayali</b><i>Berke Türk</i></div>
+                </div>
+                <p>Aşkın şiddetine vurulmuşum ben<br>
+                  Gözlerini izlemek tek hayalim<br>
+                  Aşkımı Ötüken'e uzattım ben<br>
+                  Uğrunda can vermektir tek hayalim</p>
+                <a href="#" class="s-btn">Devamını Oku</a>
+              </a></div>
+            <div class="card"><a href="#">
+                <div class="profil flex">
+                  <img src="img/hasan.jpg" alt="">
+                  <div class="baslik"><b>Türk Hayali</b><i>Berke Türk</i></div>
+                </div>
+                <p>Aşkın şiddetine vurulmuşum ben<br>
+                  Gözlerini izlemek tek hayalim<br>
+                  Aşkımı Ötüken'e uzattım ben<br>
+                  Uğrunda can vermektir tek hayalim</p>
+                <a href="#" class="s-btn">Devamını Oku</a>
+              </a></div>
+            <div class="card"><a href="#">
+                <div class="profil flex">
+                  <img src="img/hasan.jpg" alt="">
+                  <div class="baslik"><b>Türk Hayali</b><i>Berke Türk</i></div>
+                </div>
+                <p>Aşkın şiddetine vurulmuşum ben<br>
+                  Gözlerini izlemek tek hayalim<br>
+                  Aşkımı Ötüken'e uzattım ben<br>
+                  Uğrunda can vermektir tek hayalim</p>
+                <a href="#" class="s-btn">Devamını Oku</a>
+              </a></div>
+            <div class="card"><a href="#">
+                <div class="profil flex">
+                  <img src="img/hasan.jpg" alt="">
+                  <div class="baslik"><b>Türk Hayali</b><i>Berke Türk</i></div>
+                </div>
+                <p>Aşkın şiddetine vurulmuşum ben<br>
+                  Gözlerini izlemek tek hayalim<br>
+                  Aşkımı Ötüken'e uzattım ben<br>
+                  Uğrunda can vermektir tek hayalim</p>
+                <a href="#" class="s-btn">Devamını Oku</a>
+              </a></div>
+          </div>
+          <a href="#" class="dahafazla">Daha Fazlası İçin Tıklayınız</a>
+        </div>
+        <div class="right1">
+          <div class="digersiirler">
+            <div class="title">
+              Şairlerimiz
+            </div>
+            <div class="list">
+              <div class="card"> <a href="#" class="flex">
+                  <img src="img/hasan.jpg" alt="">
+                  <div class="detail"><b>Hasan Basri Sakar</b><i>Şair - Yazar</i></div>
+                </a>
+              </div>
+              <div class="card"> <a href="#" class="flex">
+                  <img src="img/hasan.jpg" alt="">
+                  <div class="detail"><b>Hasan Basri Sakar</b><i>Şair - Yazar</i></div>
+                </a>
+              </div>
+              <div class="card"> <a href="#" class="flex">
+                  <img src="img/hasan.jpg" alt="">
+                  <div class="detail"><b>Hasan Basri Sakar</b><i>Şair - Yazar</i></div>
+                </a>
+              </div>
+              <div class="card"> <a href="#" class="flex">
+                  <img src="img/hasan.jpg" alt="">
+                  <div class="detail"><b>Hasan Basri Sakar</b><i>Şair - Yazar</i></div>
+                </a>
+              </div>
+              <div class="card"> <a href="#" class="flex">
+                  <img src="img/hasan.jpg" alt="">
+                  <div class="detail"><b>Hasan Basri Sakar</b><i>Şair - Yazar</i></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="img/BANNERarastirma.png" class="s-banner" alt="">
+    <div class="say-title">
+      KÖGMENLER DERGİSİ
+      <i>SAYILARIMIZ</i>
+    </div>
+
+    <div class="flex sayilar">
+
+      <div class="sayi"><a href="#">
+        <img src="img/mayıs23.jpg" alt="">
+        <p class="say-title">Kögmenler Dergisi</p>
+        <p class="say-detail">Mayıs 2023</p>
+        <a href="#">OKU</a></a>
+      </div>
+
+      <div class="sayi"><a href="#">
+        <img src="img/mayıs23.jpg" alt="">
+        <p class="say-title">Kögmenler Dergisi</p>
+        <p class="say-detail">Mayıs 2023</p>
+        <a href="#">OKU</a></a>
+      </div>
+
+      <div class="sayi"><a href="#">
+        <img src="img/mayıs23.jpg" alt="">
+        <p class="say-title">Kögmenler Dergisi</p>
+        <p class="say-detail">Mayıs 2023</p>
+        <a href="#">OKU</a></a>
+      </div>
+
+      <div class="sayi"><a href="#">
+        <img src="img/mayıs23.jpg" alt="">
+        <p class="say-title">Kögmenler Dergisi</p>
+        <p class="say-detail">Mayıs 2023</p>
+        <a href="#">OKU</a></a>
+      </div>
+
+      <div class="sayi"><a href="#">
+        <img src="img/mayıs23.jpg" alt="">
+        <p class="say-title">Kögmenler Dergisi</p>
+        <p class="say-detail">Mayıs 2023</p>
+        <a href="#">OKU</a></a>
+      </div>
+
+      <div class="sayi"><a href="#">
+        <img src="img/mayıs23.jpg" alt="">
+        <p class="say-title">Kögmenler Dergisi</p>
+        <p class="say-detail">Mayıs 2023</p>
+        <a href="#">OKU</a></a>
+      </div>
+
+      <div class="sayi"><a href="#">
+        <img src="img/mayıs23.jpg" alt="">
+        <p class="say-title">Kögmenler Dergisi</p>
+        <p class="say-detail">Mayıs 2023</p>
+        <a href="#">OKU</a></a>
+      </div>
+
+      <div class="sayi"><a href="#">
+        <img src="img/mayıs23.jpg" alt="">
+        <p class="say-title">Kögmenler Dergisi</p>
+        <p class="say-detail">Mayıs 2023</p>
+        <a href="#">OKU</a></a>
+      </div>
+
+
+    </div>
+
+
+
+    <div class="dhfz">
+      <a href="#" class="dahafazla">Daha Fazlası İçin Tıklayınız</a>
+    </div>
+
+
+
+
+    <img src="img/BANNERarastirma.jpg" class="s-banner" style="margin-bottom: 0px;" alt="">
+
+  </div>
+  <div class="footer" id="ana-footer">
+    <div class="cerceve">
+      <div class="flex">
+        <div class="left">
+          <img src="img/logo.png" alt="">
+          <p>International community, creative marketplace and safe work space for screenplay writers, editors &
+            independent filmmakers.</p>
+        </div>
+        <div class="right">
+          <div class="list">
+            <a href="#" class="glow">Site Haritasi</a>
+            <a href="#">Anasayfa</a>
+            <a href="#">Yazılar</a>
+            <a href="#">Şiirler</a>
+            <a href="#">Haberler</a>
+            <a href="#">Hakkımızda</a>
+            <a href="#">İletişim</a>
+          </div>
+          <div class="list">
+            <a href="#" class="glow">Sıkça Sorulan Sorular</a>
+            <a href="#">Amaçlarınız Neler?</a>
+            <a href="#">Soru Y</a>
+            <a href="#">Soru Z</a>
+          </div>
+          <div class="list">
+            <a href="#" class="glow">Son Haberler</a>
+            <a href="#">Ocak 2024</a>
+            <a href="#">Aralık 2023</a>
+            <a href="#">Kasım 2023</a>
+            <a href="#">Ekim 2023</a>
+          </div>
+
+        </div>
+      </div>
+      <div class="copyright">
+        Copyright © Kögmenler · 2022
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lexend+Peta:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Türkçülük Araştırma Merkezi - Kögmenler</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+  </script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="cerceve">
+      <div class="banner">
+        <img src="./img/banner.jpg" alt="Türkçülük Araştırma Merkezi">
+      </div>
+      <div class="nav">
+        <div class="menu">
+          <a href="/">Anasayfa</a>
+          <a href="sayilar.html">Sayılar</a>
+          <a href="yazilar.html">Yazılar</a>
+          <a href="siirler.html">Şiirler</a>
+          <a href="iletisim.html">İletişim</a>
+          <a href="hakkimizda.html">Hakkımızda</a>
+        </div>
+        <div class="search-bar">
+          <div class="search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path
+                d="M18.4444 20L11.4444 13C10.8889 13.4444 10.25 13.7963 9.52778 14.0556C8.80556 14.3148 8.03704 14.4444 7.22222 14.4444C5.2037 14.4444 3.49556 13.7452 2.09778 12.3467C0.7 10.9481 0.000740741 9.24 0 7.22222C0 5.2037 0.699259 3.49556 2.09778 2.09778C3.4963 0.7 5.20444 0.000740741 7.22222 0C9.24074 0 10.9489 0.699259 12.3467 2.09778C13.7444 3.4963 14.4437 5.20444 14.4444 7.22222C14.4444 8.03704 14.3148 8.80556 14.0556 9.52778C13.7963 10.25 13.4444 10.8889 13 11.4444L20 18.4444L18.4444 20ZM7.22222 12.2222C8.61111 12.2222 9.79185 11.7359 10.7644 10.7633C11.737 9.79074 12.223 8.61037 12.2222 7.22222C12.2222 5.83333 11.7359 4.65259 10.7633 3.68C9.79074 2.70741 8.61037 2.22148 7.22222 2.22222C5.83333 2.22222 4.65259 2.70852 3.68 3.68111C2.70741 4.6537 2.22148 5.83407 2.22222 7.22222C2.22222 8.61111 2.70852 9.79185 3.68111 10.7644C4.6537 11.737 5.83407 12.223 7.22222 12.2222Z"
+                fill="#343434" />
+            </svg>
+            <input type="text" name="search" id="">
+          </div>
+
+          <input type="button" value="Ara">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="mobilmenu frame">
+    <div class="logo1">
+      <a href="/" id="headlogo"><img src="img/resplogo.png" alt=""></a>
+    </div>
+    <div class="menubuton" onclick="gizleGoster('menuresp');"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+        height="24" viewBox="0 0 24 24" fill="none">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M3 6C3 5.44772 3.44772 5 4 5H20C20.5523 5 21 5.44772 21 6C21 6.55228 20.5523 7 20 7H4C3.44772 7 3 6.55228 3 6ZM3 12C3 11.4477 3.44772 11 4 11H20C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13H4C3.44772 13 3 12.5523 3 12ZM4 17C3.44772 17 3 17.4477 3 18C3 18.5523 3.44772 19 4 19H20C20.5523 19 21 18.5523 21 18C21 17.4477 20.5523 17 20 17H4Z"
+          fill="#140D27" />
+      </svg>
+
+    </div>
+
+
+  </div>
+  <div class="menuresp" id="menuresp" style="left: -100%;">
+    <div class="menubuton" onclick="gizle('menuresp');">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M20.7071 4.70711C21.0976 4.31658 21.0976 3.68342 20.7071 3.29289C20.3166 2.90237 19.6834 2.90237 19.2929 3.29289L12 10.5858L4.70711 3.29289C4.31658 2.90237 3.68342 2.90237 3.29289 3.29289C2.90237 3.68342 2.90237 4.31658 3.29289 4.70711L10.5858 12L3.29289 19.2929C2.90237 19.6834 2.90237 20.3166 3.29289 20.7071C3.68342 21.0976 4.31658 21.0976 4.70711 20.7071L12 13.4142L19.2929 20.7071C19.6834 21.0976 20.3166 21.0976 20.7071 20.7071C21.0976 20.3166 21.0976 19.6834 20.7071 19.2929L13.4142 12L20.7071 4.70711Z"
+          fill="#232227" />
+      </svg>
+    </div>
+    <a href="/">Anasayfa</a>
+    <a href="sayilar.html">Sayılar</a>
+    <a href="yazilar.html">Yazılar</a>
+    <a href="siirler.html">Şiirler</a>
+    <a href="iletisim.html">İletişim</a>
+    <a href="hakkimizda.html">Hakkımızda</a>
+  </div>
+
+<script>
+    function gizleGoster(ID) {
+        var secilenID = document.getElementById(ID);
+        if (secilenID.style.left == "-100%") {
+            secilenID.style.left = "0%";
+            secilenID.style.transition = "all .5s"
+
+        } else {
+            secilenID.style.left = "-100%";
+        }
+    }
+
+    var menuLinks = document.querySelectorAll('.menuresp a');
+    for (var i = 0; i < menuLinks.length; i++) {
+        menuLinks[i].addEventListener('click', function () {
+            gizle('menuresp');
+        });
+    }
+
+    function gizle(ID) {
+        var secilenID = document.getElementById(ID);
+        secilenID.style.left = "-100%";
+    }
+</script>
+<div class="cerceve">
+    <div class="flex">
+        <div class="left">
+            <div class="kapak">
+                <div class="detail flex1">
+                    <div class="detail-y">
+                        <h1>Atsız’da Sivil Milliyetçilik Anlayışı</h1>
+                        <h2>05.01.2024 ● Hasan Basri Sakar</h2>
+                    </div>
+                    <div class="social">
+                        <a href="twitter.com"><svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37" fill="none">
+                            <path d="M34.6257 9.24999C33.4386 9.78957 32.159 10.1442 30.8332 10.3137C32.1899 9.49666 33.2382 8.20166 33.7315 6.64457C32.4519 7.41541 31.0336 7.95499 29.5382 8.26332C28.3203 6.93749 26.609 6.16666 24.6665 6.16666C21.0436 6.16666 18.0836 9.12666 18.0836 12.7804C18.0836 13.3046 18.1453 13.8133 18.2532 14.2912C12.7649 14.0137 7.87777 11.3775 4.62486 7.38457C4.05444 8.35582 3.73069 9.49666 3.73069 10.6992C3.73069 12.9962 4.88694 15.0312 6.67527 16.1875C5.58069 16.1875 4.56319 15.8792 3.66902 15.4167V15.4629C3.66902 18.6696 5.95069 21.3521 8.97236 21.9533C8.00223 22.2188 6.98375 22.2558 5.99694 22.0612C6.41567 23.3755 7.23573 24.5255 8.34184 25.3495C9.44795 26.1736 10.7845 26.6303 12.1636 26.6554C9.82587 28.5061 6.9281 29.5064 3.94652 29.4921C3.42236 29.4921 2.89819 29.4612 2.37402 29.3996C5.30319 31.2804 8.78736 32.375 12.5182 32.375C24.6665 32.375 31.3419 22.2925 31.3419 13.5512C31.3419 13.2583 31.3419 12.9808 31.3265 12.6879C32.6215 11.7629 33.7315 10.5912 34.6257 9.24999Z" fill="#F8F8F8"/>
+                            </svg></a>
+                            <a href="facebook.com"><svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37" fill="none">
+                                <path d="M33.9168 18.5C33.9168 9.99001 27.0102 3.08334 18.5002 3.08334C9.99016 3.08334 3.0835 9.99001 3.0835 18.5C3.0835 25.9617 8.38683 32.1746 15.4168 33.6083V23.125H12.3335V18.5H15.4168V14.6458C15.4168 11.6704 17.8372 9.25001 20.8127 9.25001H24.6668V13.875H21.5835C20.7356 13.875 20.0418 14.5688 20.0418 15.4167V18.5H24.6668V23.125H20.0418V33.8396C27.8272 33.0688 33.9168 26.5013 33.9168 18.5Z" fill="#F8F8F8"/>
+                                </svg></a>
+                    </div>
+                </div>
+                <img src="img/ta.jpg" alt="">
+            </div>
+            <div class="yazi">
+                Filistin ve Türkiye arasında, İslam dini etrafında gelişen manevi bağların yanı sıra, aynı zamanda derin bir tarihî bağ ve kader birliği mevcuttur. Türklerin Filistin coğrafyasıyla tanışması, Anadolu coğrafyasıyla tanışmaları kadar eskidir. Selçuklu Sultanı Alp Arslan’ın 1071’de Malazgirt’te Anadolu’nun kapılarını Türklere açtığını hepimiz biliriz ama Alp Arslan’ın kumandanı Atsız’ın aynı yıllarda Kudüs’ü Türk hâkimiyetine aldığı çok azımızın hafızasındadır.
+<br><br>Selçuklu Türkleri, 1040 yılında Horasan’da bir devlet kurunca, Orta Doğu bölgesine coğrafi bakımdan yakınlaşmaya başladılar. Bu coğrafi yakınlık ve İslam Medeniyeti’ne mensubiyet, Selçuklu Devleti politikasını yönlendirdi. Önce Bağdat ve çevresinde hâkim olan Abbasi Devleti ile yakın ilişkiler kuruldu. Daha sonra Mısır ve Suriye’ye yönelik politikalar geliştirildi. Sultan Alp Arslan’ın komutanlarından Atsız, Kuzey Suriye ve Filistin’in büyük bir bölümünü ele geçirerek bu toprakları Selçuklu hâkimiyetine dâhil etti, Filistin’de ilk Türk beyliğini kurdu. Beyliğin merkezi Remle idi. Atsız, daha sonra Fatımiler’in elinde olan Kudüs’ü kuşattı. Bu kutsal şehirde kan dökülmesini istemiyordu. Bu sebeple Kudüs’ün Türk asıllı valisine bir mektup göndererek “Bu kutsal şehre karşı savaşmamı Allah doğru bulmaz, şehrin kan dökülmeden teslimini istiyorum” dedi. Bunun üzerine Vali, Atsız’a “Ben de sizler gibi bir Türküm, size karşı şehri hiçbir zaman savunmayacağım. Fakat bana hayatım ve servetim hakkında güvence verilirse şehri derhal teslim eder, hizmetinize girerim” cevabını verdi. Atsız bu sözler karşısında Vali’ye istediklerini verdi ve Kudüs’ü kan dökülmeden teslim aldı. Şehirde, Fatımi Halifeliği adına değil Abbasi Halifeliği adına hutbe okunmaya başlandı.
+<br><br>Atsız, Kudüs’ü ele geçirdiğinde şehrin zenginliklerine dokunmadığı gibi, onların yağmadan korunmasını sağlamak için muhafızlar görevlendirdi. Kudüs’ün zaptından sonra Atsız, yönetim merkezini buraya taşıdı ve hazinesi, ailesi ve yakınlarıyla birlikte meşhur Davud Burcu’na yerleşti.
+            </div>
+            <div class="tags">
+                <div class="tag-title">
+                    ETİKETLER
+                </div>
+                <div class="tag t-ag">
+                    Türkçülük Araştırmaları
+                </div>
+                <div class="tag">
+                    Atsız
+                </div>
+                <div class="tag">
+                    Türkçü
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="digeryazilar1">
+              <div class="title">
+                İlginizi Çekebilecek Yazılar
+              </div>
+              <div class="card">
+                <a href="" class="flex"> <img src="img/image 1.jpg" alt="">
+                  <div class="c-detail">
+                    <div class="baslik">
+                      Türkçülüğün Tarihinde Kuram Tartışmaları
+                    </div>
+                    <div class="detail">Hasan Basri Sakar</div>
+                    <div class="detail">05.01.2024</div>
+                  </div>
+                </a>
+              </div>
+              <div class="card">
+                <a href="" class="flex"> <img src="img/image 1.jpg" alt="">
+                  <div class="c-detail">
+                    <div class="baslik">
+                      Türkçülüğün Tarihinde Kuram Tartışmaları
+                    </div>
+                    <div class="detail">Hasan Basri Sakar</div>
+                    <div class="detail">05.01.2024</div>
+                  </div>
+                </a>
+              </div>
+              <div class="card">
+                <a href="" class="flex"> <img src="img/image 1.jpg" alt="">
+                  <div class="c-detail">
+                    <div class="baslik">
+                      Türkçülüğün Tarihinde Kuram Tartışmaları
+                    </div>
+                    <div class="detail">Hasan Basri Sakar</div>
+                    <div class="detail">05.01.2024</div>
+                  </div>
+                </a>
+              </div>
+    
+            </div>
+          </div>
+    </div>
+</div>
+  <div class="footer"><div class="cerceve">
+    <div class="flex">
+      <div class="left">
+          <img src="img/logo.png" alt="">
+          <p>International community, creative marketplace and safe work space for screenplay writers, editors & independent filmmakers.</p>
+      </div>
+      <div class="right">
+        <div class="list">
+          <a href="#" class="glow">Site Haritasi</a>
+          <a href="#">Anasayfa</a>
+          <a href="#">Yazılar</a>
+          <a href="#">Şiirler</a>
+          <a href="#">Haberler</a>
+          <a href="#">Hakkımızda</a>
+          <a href="#">İletişim</a>
+        </div>
+        <div class="list">
+          <a href="#" class="glow">Sıkça Sorulan Sorular</a>
+          <a href="#">Amaçlarınız Neler?</a>
+          <a href="#">Soru Y</a>
+          <a href="#">Soru Z</a>
+        </div>
+        <div class="list">
+          <a href="#" class="glow">Son Haberler</a>
+          <a href="#">Ocak 2024</a>
+          <a href="#">Aralık 2023</a>
+          <a href="#">Kasım 2023</a>
+          <a href="#">Ekim 2023</a>
+        </div>
+
+      </div></div>
+      <div class="copyright">
+        Copyright © Kögmenler · 2022
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+  </script>
+
+</body>
+
+</html>
